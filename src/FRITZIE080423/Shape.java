@@ -9,5 +9,15 @@ package FRITZIE080423;
  * @author LENOVO
  */
 public class Shape {
+    public abstract double getArea();
+    public abstract String getName();
     
+    public static void main(String[] args){
+        Circle c = new Circle(10);
+        Square s = new Square(20);
+        System.out.println("Nama obj c : "+c.getName());
+        System.out.println("Luas obj c : "+c.getArea());
+        System.out.println("Nama obj s : "+c.getName());
+        System.out.println("Luas obj s : "+c.getArea());
+    }
 }

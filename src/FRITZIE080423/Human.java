@@ -8,6 +8,17 @@ package FRITZIE080423;
  *
  * @author LENOVO
  */
-public class Human {
+public class Human extends LivingThing { 
     
+    @Override
+    public void walk(){ 
+        System.out.println("Human walks..."); 
+    } 
+    
+    public static void main(String[] args){
+        Human m = new Human();
+        m.breath();
+        m.eat();
+        m.walk();
+    }
 }
