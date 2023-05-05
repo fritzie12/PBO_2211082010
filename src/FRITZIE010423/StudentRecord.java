@@ -10,7 +10,7 @@ package FRITZIE010423;
  */
 public class StudentRecord {
     public static void main (String [] args){
-    private String name; 
+    private String name;
     private String address; 
     private int age; 
     private double mathGrade; 
