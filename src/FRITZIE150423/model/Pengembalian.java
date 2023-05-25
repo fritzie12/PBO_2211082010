@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package rizky150423.model;
+package FRITZIE150423.model;
 
 /**
  *
@@ -19,7 +19,7 @@ public class Pengembalian {
         
     }
     
-    public pengembalian (String kembali, int terlambat, double denda, String strterlambat, String strdenda){
+    public Pengembalian (String kembali, int terlambat, double denda, String strterlambat, String strdenda){
         this.kembali = kembali;
         this.terlambat = terlambat;
         this.denda = denda;
